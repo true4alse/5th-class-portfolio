@@ -1,0 +1,22 @@
+*{margin:0;padding:0;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:normal;}
+img{max-width:100%;}
+a{color:inherit;text-decoration: none;}
+table{border-collapse: collapse;}
+
+/* background */
+.background{
+    width:100%;
+    height:100vh;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:-1;
+    background:#333;
+}
+
+.background line{
+    stroke:#fff;
+    stroke-width: 1;
+}
